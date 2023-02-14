@@ -16,5 +16,8 @@ This repository contains all the exercises and assessments of the UC Computaçã
 ### Notes
 Notes that I take during theoretical lectures in Markdown. <br>
 
+### Exercises
+Exercises during TP classes <br>
+
 **@ Fábio Araújo de Sá** <br>
 **2022/2023**
