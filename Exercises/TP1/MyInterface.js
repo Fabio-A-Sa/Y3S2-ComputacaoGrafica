@@ -1,4 +1,4 @@
-import {CGFinterface, dat} from '../lib/CGF.js';
+import { CGFinterface, dat } from '../lib/CGF.js';
 
 /**
 * MyInterface
@@ -14,10 +14,21 @@ export class MyInterface extends CGFinterface {
         
         // call CGFinterface init
         super.init(application);
-        
+
         // init GUI. For more information on the methods, check:
         // https://github.com/dataarts/dat.gui/blob/master/API.md
         this.gui = new dat.GUI();
+
+
+        this.gui.add(this.scene, 'displayDiamond').name('Diamond');
+
+        this.gui.add(this.scene, 'displayTriangle').name('Triangle');
+
+        this.gui.add(this.scene, 'displayTriangleSmall').name('Triangle Small');
+
+        this.gui.add(this.scene, 'displayTriangleBig').name('Triangle Big');
+
+        this.gui.add(this.scene, 'displayParallelogram').name('Parallelogram');
 
         //Checkbox element in GUI
         this.gui.add(this.scene, 'displayAxis').name('Axis');
@@ -25,14 +36,6 @@ export class MyInterface extends CGFinterface {
         //Slider element in GUI
         this.gui.add(this.scene, 'scaleFactor', 0.1, 5).name('Scale Factor');
 
-        // Display diamond
-        this.gui.add(this.scene, 'displayDiamond').name('Diamond');
-
-        // Display triangle
-        this.gui.add(this.scene, 'displayTriangle').name('Triangle');
-
-        // Display parallelogram
-        this.gui.add(this.scene, 'displayParallelogram').name('Parallelogram');
 
         return true;
     }
