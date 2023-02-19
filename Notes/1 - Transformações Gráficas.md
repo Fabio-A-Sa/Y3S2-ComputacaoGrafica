@@ -101,3 +101,25 @@ S(x,y,z) = [x_final, y_final, z_final] = [s_x, 0, 0, 0] * [x]
 
 ### Rotação
 
+A rotação realiza-se sempre em relação a um dos três eixos principais: Rx, Ry ou Rz. Basta zerar a linha correspondente e ampliar a matriz já vista no caso de 2D:
+
+```note
+Rz(x) = [x_final, y_final, z_final] = [cos(x), -sen(x), 0, 0] * [x]
+                                      [sen(x),  cos(x), 0, 0]   [y]
+                                      [0,            0, 1, 0]   [z]
+                                      [0,            0, 0, 1]   [0]
+
+Rx(x) = [x_final, y_final, z_final] = [1,      0,       0, 0] * [x]
+                                      [0, cos(x), -sen(x), 0]   [y]
+                                      [0, sen(x),  cos(x), 0]   [z]
+                                      [0,      0,       0, 1]   [0]
+```
+
+O caso de Ry é um caso particular, pois segundo a regra da mão direita o eixo Z ficará negativo. Para isso troca-se as linhas pelas colunas:
+
+```note
+Ry(x) = [x_final, y_final, z_final] = [ cos(x), 0, sen(x), 0] * [x]
+                                      [      0, 1,      0, 0]   [y]
+                                      [-sen(x), 0, cos(x), 0]   [z]
+                                      [      0, 0,      0, 1]   [0]
+```
