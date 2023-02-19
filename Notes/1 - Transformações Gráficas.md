@@ -83,3 +83,18 @@ O sistema de eixos a adotar em 3D é o descrito pela mão direita. A posição d
 
 ### Translação
 
+```note
+T(x,y,z) = [x_final, y_final, z_final] = [1, 0, 0, delta_x] * [x]
+                                         [0, 1, 0, delta_y]   [y]
+                                         [0, 0, 1, delta_z]   [z]
+                                         [0, 0, 0,       1]   [0]
+```
+
+### Escalamento
+
+```note
+T(x,y,z) = [x_final, y_final, z_final] = [1, 0, 0, delta_x] * [x]
+                                         [0, 1, 0, delta_y]   [y]
+                                         [0, 0, 1, delta_z]   [z]
+                                         [0, 0, 0,       1]   [0]
+```
