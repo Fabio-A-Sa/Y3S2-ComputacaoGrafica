@@ -55,7 +55,21 @@ R(beta) = [x_final, y_final, 0] = [cos(beta), -sen(beta), 0] * [x]
 
 ### Composição / Concatenação de Transformações Geométricas
 
-Por questões de performance
+Por questões de performance a composição de transformações resultam numa multiplicação de matrizes 3x3. Esta multiplicação não é comutativa:
+
+```note
+(x_final, y_final) = S(x,y) * T (x, y) * R (alpha)
+```
+
+Neste caso acima, faz-se primeiro a rotação, depois a translação e só depois o escalamento. Para **transformações relativas a um ponto fixo (A, B)** faz-se primeiro a translação à origem, as outras operações e só no fim volta à posição original:
+
+- T(-A, -B)
+- Outras operações
+- T(A, B)
+
+### Transformações particulares
+
+
 
 ## Transformações Gráficas em 3D
 
