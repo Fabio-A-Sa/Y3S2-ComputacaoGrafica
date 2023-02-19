@@ -93,8 +93,11 @@ T(x,y,z) = [x_final, y_final, z_final] = [1, 0, 0, delta_x] * [x]
 ### Escalamento
 
 ```note
-T(x,y,z) = [x_final, y_final, z_final] = [1, 0, 0, delta_x] * [x]
-                                         [0, 1, 0, delta_y]   [y]
-                                         [0, 0, 1, delta_z]   [z]
-                                         [0, 0, 0,       1]   [0]
+S(x,y,z) = [x_final, y_final, z_final] = [s_x, 0, 0, 0] * [x]
+                                         [0, s_y, 0, 0]   [y]
+                                         [0, 0, s_z, 0]   [z]
+                                         [0, 0, 0,   1]   [0]
 ```
+
+### Rotação
+
