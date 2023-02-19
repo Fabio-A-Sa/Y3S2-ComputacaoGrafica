@@ -44,7 +44,18 @@ A rotação define-se em relação à origem do referencial escolhido. Em coorde
 - y = raio * sen(ângulo)
 Onde o raio é a distância em linha reta até à origem e o ângulo é definido entre essa linha reta e o eixo das abcissas em sentido anti-horário. Um ponto (x, y) que tenha um ângulo de *alpha* graus rodado de *beta* graus tem as suas coordenadas finais calculadas assim:
 - x_final = raio * cos(alpha + beta) = x * cos(beta) - y * sen (beta)
-- y_final = raio * sen(alpha + beta) = 
+- y_final = raio * sen(alpha + beta) = x * sen(beta) + y * cos (beta)
+O valor final não depende do valor do ângulo inicial. A representação matricial da transformação é a seguinte:
+
+```note
+R(beta) = [x_final, y_final, 0] = [cos(beta), -sen(beta), 0] * [x]
+                                  [sen(beta),  cos(beta), 0]   [y]
+                                  [        0,          0, 1]   [0]
+```
+
+### Composição / Concatenação de Transformações Geométricas
+
+Por questões de performance
 
 ## Transformações Gráficas em 3D
 
