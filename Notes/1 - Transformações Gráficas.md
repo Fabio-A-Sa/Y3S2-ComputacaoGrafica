@@ -40,11 +40,15 @@ S(x,y) = [x_final, y_final, 0] = [s_x,   0, 0] * [x]
 ### Rotação
 
 A rotação define-se em relação à origem do referencial escolhido. Em coordenadas polares, as coordenadas cartesianas tradicionais podem ser caracterizadas da seguinte maneira:
+
 - x = raio * cos(ângulo)
-- y = raio * sen(ângulo)
+- y = raio * sen(ângulo) 
+
 Onde o raio é a distância em linha reta até à origem e o ângulo é definido entre essa linha reta e o eixo das abcissas em sentido anti-horário. Um ponto (x, y) que tenha um ângulo de *alpha* graus rodado de *beta* graus tem as suas coordenadas finais calculadas assim:
+
 - x_final = raio * cos(alpha + beta) = x * cos(beta) - y * sen (beta)
-- y_final = raio * sen(alpha + beta) = x * sen(beta) + y * cos (beta)
+- y_final = raio * sen(alpha + beta) = x * sen(beta) + y * cos (beta) 
+
 O valor final não depende do valor do ângulo inicial. A representação matricial da transformação é a seguinte:
 
 ```note
@@ -69,8 +73,13 @@ Neste caso acima, faz-se primeiro a rotação, depois a translação e só depoi
 
 ### Transformações particulares
 
-
+- Reflexão em relação ao eixo X: S(1, -1)
+- Reflexão em relação ao eixo Y: S(-1, 1)
+- Reflexão em relação à linha Y = X: Rotação de -45 graus seguida do escalamento S (1,-1) seguida da rotação de 45 graus;
 
 ## Transformações Gráficas em 3D
 
-//SOON
+O sistema de eixos a adotar em 3D é o descrito pela mão direita. A posição do polegar é sempre a apontar para o semieixo positivo do Z quando os outros quatro dedos enrolam de X para Y. As matrizes de transformação agora são 4x4:
+
+### Translação
+
