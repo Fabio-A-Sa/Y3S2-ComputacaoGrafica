@@ -12,3 +12,20 @@ Quando há reflexão em todas as direções igualmente. O envelope é de raio co
 
 Os raios não são refletidos todos com a mesma amplitude. A maior amplitude coincide com o ângulo de reflexão e à medida que nos afastamos desse ângulo diminui, formando um envelope elipsoide. <br>
 Em casos de superfícies polidas, lisas, espelho (superfície **ideal** ou **pura**) existe apenas um único raio refletido. 
+
+## Modelo de Iluminação Elementar
+
+A iluminação em Computação Gráfica é implementada somando três componentes:
+- Iluminação ambiente;
+- Iluminação difusa;
+- Iluminação especular;
+
+### Iluminação Ambiente
+
+
+
+### Iluminação Difusa
+
+
+
+### Iluminação Especular
