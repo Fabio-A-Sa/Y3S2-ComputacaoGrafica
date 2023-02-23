@@ -23,7 +23,7 @@ A iluminação em Computação Gráfica é implementada somando três componente
 ### Iluminação Ambiente
 
 ```note
-Iambiente = Ka * Ia
+I(ambiente) = Ka * Ia
     - Ka: coeficiente de reflexão ambiente da face
     - Ia: intensidade observada
 ```
@@ -32,6 +32,17 @@ A intensidade é constante em todas as direções. Se considerarmos apenas esta 
 
 ### Iluminação Difusa
 
+O cálculo tem como base a **Lei de Lambert**:
 
+```note
+I(difusa) = Kd * Ip * cos(alpha) / d^2
+    - Kd: coeficiente de reflexão total
+    - Ip: intensidade da fonte de luz
+    - alpha: ângulo de incidência na superfície do objeto
+    - d: distância entre a fonte de luz e o objeto a ser iluminado
+    - cos(alpha): N * L
+```
+
+Para as fórmulas todos os vetores têm de ser normalizados, ou seja, unitários. Repare-se que a iluminação difusa decai muito rapidamente com a distância ao objecto.
 
 ### Iluminação Especular
