@@ -24,7 +24,7 @@ A iluminação em Computação Gráfica é implementada somando três componente
 
 ```note
 I(ambiente) = Ka * Ia
-    - Ka: coeficiente de reflexão ambiente da face
+    - Ka: coeficiente de reflexão ambiente
     - Ia: intensidade observada
 ```
 
@@ -36,7 +36,7 @@ O cálculo tem como base a **Lei de Lambert**:
 
 ```note
 I(difusa) = Kd * Ip * cos(alpha) / d^2
-    - Kd: coeficiente de reflexão total
+    - Kd: coeficiente de reflexão total / difusa
     - Ip: intensidade da fonte de luz
     - alpha: ângulo de incidência na superfície do objeto
     - d: distância entre a fonte de luz e o objeto a ser iluminado
@@ -46,3 +46,18 @@ I(difusa) = Kd * Ip * cos(alpha) / d^2
 Para as fórmulas todos os vetores têm de ser normalizados, ou seja, unitários. Repare-se que a iluminação difusa decai muito rapidamente com a distância ao objecto.
 
 ### Iluminação Especular
+
+O cálculo tem como base o **Modelo de Phong**:
+
+```note
+I(especular) = Ks * Ip * cos^n(beta) / d^2
+    - Ks: coeficiente de reflexão especular
+    - Ip: intensidade da fonte luminosa
+    - n: depende das características da superfície
+    - beta: ângulo entre o vetor de reflexão total e o vetor entre o observador e o ponto da superfície
+    - d: distância entre a fonte de luz e o objeto a ser iluminado
+```
+
+O valor de `n` depende das características da superfície:
+- alto, para superfícies perfeitamente polidas. Nesse caso a mancha de reflexão é pequena e centrada;
+- baixo, para superfícies não polidas. Nesse caso a mancha de reflexão é maior;
