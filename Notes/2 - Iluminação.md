@@ -22,7 +22,13 @@ A iluminação em Computação Gráfica é implementada somando três componente
 
 ### Iluminação Ambiente
 
+```note
+Iambiente = Ka * Ia
+    - Ka: coeficiente de reflexão ambiente da face
+    - Ia: intensidade observada
+```
 
+A intensidade é constante em todas as direções. Se considerarmos apenas esta componente para definir a luz refletida pelo objeto então todas as faces teriam a mesma intensidade luminosa e as arestas não se distinguem.
 
 ### Iluminação Difusa
 
