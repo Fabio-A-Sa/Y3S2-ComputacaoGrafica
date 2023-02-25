@@ -17,4 +17,7 @@ O algoritmo é mais exato quando é aplicado sob o ponto de vista das fontes de 
 
 A cor colocada no ecrã é a cor do ponto de interseção da linha que liga o observador ao píxel do primeiro objeto (o objeto visível). Para saber se esse píxel é iluminado, traça um raio que vai desse ponto mais próximo ao observador até à fonte de luz. Se a linha não colidir com mais nenhum objecto o ponto é iluminado.
 
-### 3 - 
+### 3 - Algoritmo do Volume de Sombras (BSP)
+
+Através da modelação BSP (*Binary Space Partition*) e caracterização do polígono mais próximo à fonte de luz é possível definir um polígono de sombras (muito provavelmente de maior área) atrás do primeiro.
+
