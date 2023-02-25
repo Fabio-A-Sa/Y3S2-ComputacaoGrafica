@@ -1,4 +1,4 @@
-# Sombras
+# Sombras e Sombreamento
 
 Os objectos que estão na sombra só são iluminados pela componente de luz **ambiente**. Para casos onde não existe luz pontual, ou seja, a luz é representada por uma linha, então podem existir zonas de **penumbra**, onde só algumas luzes conseguem iluminar a zona.
 
