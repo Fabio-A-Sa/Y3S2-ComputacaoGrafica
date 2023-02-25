@@ -1,8 +1,10 @@
 # Sombras e Sombreamento
 
+## Sombras
+
 Os objectos que estão na sombra só são iluminados pela componente de luz **ambiente**. Para casos onde não existe luz pontual, ou seja, a luz é representada por uma linha, então podem existir zonas de **penumbra**, onde só algumas luzes conseguem iluminar a zona.
 
-## Algoritmos de Projeção de Sombras
+### Algoritmos de Projeção de Sombras
 
 São semelhantes aos algoritmos de cálculo de visibilidade pois ao substituirmos um observador pela fonte de luz:
 - visível == iluminado
