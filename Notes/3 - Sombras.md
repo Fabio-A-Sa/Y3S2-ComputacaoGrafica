@@ -21,3 +21,9 @@ A cor colocada no ecrã é a cor do ponto de interseção da linha que liga o ob
 
 Através da modelação BSP (*Binary Space Partition*) e caracterização do polígono mais próximo à fonte de luz é possível definir um polígono de sombras (muito provavelmente de maior área) atrás do primeiro.
 
+### 4 - Algoritmo Z-Buffer
+
+Gasta mais memória do que os outros mas implementado em hardware é mais rápido. Atualmente 1/10 dos cálculos realizados das placas gráficas devem-se a este processo. A estudar em breve.
+
+## Sombreamento
+
