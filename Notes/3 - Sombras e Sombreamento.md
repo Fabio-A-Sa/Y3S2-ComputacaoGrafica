@@ -44,4 +44,7 @@ Acontece o efeito `Mach Band`: em zonas de transição do tipo de sombreamento, 
 
 #### 2.A - Método de Gouraud
 
+Calcula a cor de cada vértice através da sua normal e modelo de iluminação em vigor. Depois calcula a cor de cada aresta por interpolação e a cor de todos os pontos do polígono por interpolação horizontal, ou seja, pela **scanline**. <br>
+Aqui a função de iluminação é contínua, embora a sua derivada nas arestas e vértices seja descontínua. Continua a haver efeito `Mach Band`, mas agora menos presente à vista humana. Este método é pouco preciso pois os mais altos brilhos (zonas de maior luminosidade) só podem ser sentidos nos vértices e arestas e nunca no centro do objeto.
+
 #### 2.B - Método de Phong
