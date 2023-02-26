@@ -35,6 +35,8 @@ Existem três principais modelos de sombreamento:
 ### 1 - Sombreamento Constante
 
 A cor é calculada apenas para um ponto do poligono e propagada em toda a superfície plana. A técnica consiste em considerar que tanto a fonte de luz como o observador estão no infinito, assim as normais em toda a superfície são aproximadamente iguais. <br>
-Com este modelo não é possível disfarçar a presença de arestas em objectos curvos, pelo que a **função de iluminação é descontínua**.
+Com este modelo não é possível disfarçar a presença de arestas em objectos curvos, pelo que a **função de iluminação é descontínua**. <br>
+Acontece o efeito `Mach Band`: em zonas de transição do tipo de sombreamento, como em arestas, a parte mais escura parece ainda mais escura e a parte mais clara parece ainda mais clara. É um fenómeno ótico.
 
 ### 2 - Sombreamento Interpolado 
+
