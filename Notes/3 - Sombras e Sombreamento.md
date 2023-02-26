@@ -29,3 +29,10 @@ Gasta mais memória do que os outros mas implementado em hardware é mais rápid
 
 ## Sombreamento
 
+Serve para calcular o grau de iluminação em todos os pontos de uma superfície ou polígono. Como o número de pontos numa superfície é infinito convém calcular a luminosidade para alguns e fazer aproximações entre eles através das normais.
+
+### Modelos de Sombreamento
+
+#### 1 - Sombreamento Constante
+
+#### 2 - Sombreamento Interpolado 
