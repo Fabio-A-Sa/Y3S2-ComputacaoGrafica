@@ -38,5 +38,8 @@ A cor é calculada apenas para um ponto do poligono e propagada em toda a superf
 Com este modelo não é possível disfarçar a presença de arestas em objectos curvos, pelo que a **função de iluminação é descontínua**. <br>
 Acontece o efeito `Mach Band`: em zonas de transição do tipo de sombreamento, como em arestas, a parte mais escura parece ainda mais escura e a parte mais clara parece ainda mais clara. É um fenómeno ótico.
 
-### 2 - Sombreamento Interpolado 
+### 2 - Sombreamento Interpolado / Suavisado
+
+É necessário conhecer as normais dos vértices e de mais alguns pontos ao longo da superfície. A normal de um vértice é a normal ponderada média de todas as faces poligonais vizinhas. Existem dois algoritmos para implementar esta técnica:
+
 
