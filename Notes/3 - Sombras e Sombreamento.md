@@ -48,3 +48,11 @@ Calcula a cor de cada vértice através da sua normal e modelo de iluminação e
 Aqui a função de iluminação é contínua, embora a sua derivada nas arestas e vértices seja descontínua. Continua a haver efeito `Mach Band`, mas agora menos presente à vista humana. Este método é pouco preciso pois os mais altos brilhos (zonas de maior luminosidade) só podem ser sentidos nos vértices e arestas e nunca no centro do objeto.
 
 #### 2.B - Método de Phong
+
+Efetua a interpolação com as normais em cada ponto e não com as cores. Assim garante que consegue atingir zonas de maior brilho até mesmo no centro do polígono. O último varrimento é também feito na horizontal de acordo com a scanline dos ecrãs. <br>
+Aqui a função de iluminação é contínua até mesmo na sua derivada, e o efeito `Mach Band` não é visível ao olho humano.
+
+### Problemas do sombreamento interpolado
+
+Uma rotação no polígono resulta numa iluminação errada do objeto, pois o varrimento último é feito na horizontal. Acontece mais no método de Gouraud. <br>
+Em WebGL 
