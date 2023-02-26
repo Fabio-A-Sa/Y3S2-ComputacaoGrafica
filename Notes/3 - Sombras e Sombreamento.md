@@ -55,4 +55,4 @@ Aqui a função de iluminação é contínua até mesmo na sua derivada, e o efe
 ### Problemas do sombreamento interpolado
 
 Uma rotação no polígono resulta numa iluminação errada do objeto, pois o varrimento último é feito na horizontal. Acontece mais no método de Gouraud. <br>
-Em WebGL 
+Em WebGL existe apenas implementado o algoritmo de Gouraud.
