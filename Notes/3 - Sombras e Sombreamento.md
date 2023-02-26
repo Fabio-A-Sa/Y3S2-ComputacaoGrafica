@@ -42,4 +42,6 @@ Acontece o efeito `Mach Band`: em zonas de transição do tipo de sombreamento, 
 
 É necessário conhecer as normais dos vértices e de mais alguns pontos ao longo da superfície. A normal de um vértice é a normal ponderada média de todas as faces poligonais vizinhas. Existem dois algoritmos para implementar esta técnica:
 
+#### 2.A - Método de Gouraud
 
+#### 2.B - Método de Phong
