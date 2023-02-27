@@ -5,4 +5,4 @@ As texturas usadas em Computação Gráfica têm coordenadas normalizadas entre 
 Existem três tipos de texturas:
 - Texturas de `Mapeamento`, quando colocamos uma imagem a preencher o polígono;
 - Texturas `Bump Mapping`, quando além da imagem em 2D cria-se sensações de relevo, como é o caso da casca de laranja, morango e tijolos;
-- Texturas 3D: por exemplo no mármore ou na madeira;
+- Texturas `3D`: por exemplo no mármore ou na madeira;
