@@ -40,6 +40,8 @@ Volume em formato cónico que contém as cores visíveis. Ente gráfico não pos
 
 De forma semelhante, a saturação define-se pela percentagem entre a distância à borda e a distância ao ponto central, o branco. A Matiz (Hue), que é no fundo a cor dominante de um ponto define-se pelo comprimento de onda da borda mais próxima.
 
+- `Cores não espectrais`: não podem ser definidas por um comprimento de onda dominante, por exemplo as cores púrpuras e magentas.
+
 A soma de cores de quaisquer dois pontos neste modelo não fica no ponto intermédio, porque precisamos da quantidade de cada uma (a luminânica), algo que não possuímos porque não temos profundidade. Mas podemos garantir que fica no segmento de reta que une esses mesmos pontos. <br>
 Assim é de prever que também não é possível representar todas as cores deste diagrama, pois qualquer triângulo não preenche toda a sua área.
 
