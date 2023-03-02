@@ -34,5 +34,9 @@ Na tabela de sensores há cores que possuem valores negativos em algumas gamas, 
 
 ## Modelo CIE
 
-Volume em formato cónico 
+Volume em formato cónico que contém as cores visíveis. Ente gráfico não possui luminância, apenas tem as cores com saturação máxima (puras) nas bordas e o branco ao centro.
+
+![CIE](../Images/CIE.png)
+
+De forma semelhante, a saturação define-se pela percentagem entre a distância à borda e a distância ao ponto central, o branco. A Matiz (Hue), que é no fundo a cor dominante de um ponto define-se pelo comprimento de onda da borda mais próxima.
 
