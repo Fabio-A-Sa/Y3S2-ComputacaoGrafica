@@ -10,10 +10,13 @@ Em termos perceptivos avaliamos a luz cromática pelos seguintes critérios:
 - `Intensidade`: intensidade da luz refletida. É tão mais intenso quanto mais se distingue do preto. Adicionando preto, as cores diminuem a sua intensidade;
 - `Brilho`: intensidade da luz emitida, como lâmpada, sol e afins;
 
-O branco e todos os cinzas têm saturação zero. É necessário recorrer à física para caracterizar objetivamente a cor:
+O branco e todos os cinzas têm saturação zero. É necessário recorrer à física para caracterizar objetivamente a cor. A saturação também pode ser vista como o afastamento em relação ao branco em termos percentuais:
 
 ```note
-
+Saturação = (ED - EW) / ED
+    ED - Energia dominante no gráfico
+    EW - Energia para o branco
 ```
 
+### Resposta ao olho humano
 
