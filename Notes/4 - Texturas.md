@@ -11,5 +11,5 @@ Os dois últimos critérios, que usam um **filtro linear**, são melhores para t
 
 Existem três tipos de texturas:
 - Texturas de `Mapeamento`, quando colocamos uma imagem a preencher o polígono;
-- Texturas `Bump Mapping`, quando além da imagem em 2D cria-se sensações de relevo, como é o caso da casca de laranja, morango e tijolos.
-- Texturas `3D`: por exemplo no mármore ou na madeira. Existe uma função que retorna, a partir de umas coordenadas (x, y, z) do objeto, a cor desse píxel. É um processo complexo;
+- Texturas `Bump Mapping`, quando além da imagem em 2D cria-se sensações de relevo, como é o caso da casca de laranja, morango e tijolos. Resulta de uma manipulação das normais nesses pontos;
+- Texturas `3D` / texturas `procedimentais`: por exemplo no mármore ou na madeira. Existe uma função que retorna, a partir de umas coordenadas (x, y, z) do objeto, a cor desse píxel. É um processo complexo e demorado;
