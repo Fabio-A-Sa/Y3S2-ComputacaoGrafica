@@ -20,3 +20,19 @@ Saturação = (ED - EW) / ED
 
 ### Resposta ao olho humano
 
+O olho humano é composto por dois tipos de sensores:
+- `Bastonetes`, são sensíveis a baixos níveis de iluminação e não distinguem cores;
+- `Cones`, interpretam a cor e são pouco sensíveis com pouca luz;
+
+Há cones são sensíveis de forma máxima à cor azul, vermelha e verde. No entanto esses estímulos não correspondem a percentagens iguais, pelo que é necessário fazer o ajuste quando passamos para cores do computador. Nesse caso:
+
+```note
+cinza = 21% RED + 72% GREEN + 7% BLUE
+```
+
+Na tabela de sensores há cores que possuem valores negativos em algumas gamas, pelo que em RGB/computador não é possível representar todas as cores que os seres humanos conseguem observar.
+
+## Modelo CIE
+
+Volume em formato cónico 
+
