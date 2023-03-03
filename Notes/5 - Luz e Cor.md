@@ -49,3 +49,6 @@ Assim é de prever que também não é possível representar todas as cores dest
 
 ### Modelo RGB - Red Green Blue
 
+Modelo aditivo das três componentes primárias. Representa-se por um cubo unitário onde o vértice (0,0,0) representa o preto e o (1,1,1) representa o branco. 
+
+###
