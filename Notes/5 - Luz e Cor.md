@@ -78,3 +78,6 @@ RGB(128, 64, 255) = CMY(255-128, 255-64, 255-255) = CMY(127, 191, 0)
 
 #### Entre HSV para RGB
 
+- Hue, é a cor predominante ou a média dos graus caso sejam de igual valor;
+- Value, é a energia da componente dominante em percentagem;
+- Saturação depende do valor mínimo das três componentes;
