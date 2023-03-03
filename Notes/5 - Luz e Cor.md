@@ -59,8 +59,12 @@ Usado para impressoras, onde as suas cores primárias são o Cyan, Magenta e Yel
 
 ![CMY](../Images/CMY.png)
 
-### Modelo
+### Modelo HSV
 
+Modelo simplista que refere:
+- Hue, medido em graus, por exemplo Green = 120 graus;
+- Saturação, medido em percentagem, o valor é zero no centro do cone e um na periferia;
+- Value, medido em percentagem ou em valor (0..255), depende da altura do cone;
 
 ### Conversões
 
@@ -71,4 +75,6 @@ Como as cores são complementares, então o valor também será:
 ```note
 RGB(128, 64, 255) = CMY(255-128, 255-64, 255-255) = CMY(127, 191, 0)
 ```
+
+#### Entre HSV para RGB
 
