@@ -59,3 +59,16 @@ Usado para impressoras, onde as suas cores primárias são o Cyan, Magenta e Yel
 
 ![CMY](../Images/CMY.png)
 
+### Modelo
+
+
+### Conversões
+
+#### Entre RGB e CMY
+
+Como as cores são complementares, então o valor também será:
+
+```note
+RGB(128, 64, 255) = CMY(255-128, 255-64, 255-255) = CMY(127, 191, 0)
+```
+
