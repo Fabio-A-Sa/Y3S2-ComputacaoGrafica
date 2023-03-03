@@ -57,4 +57,5 @@ Em computadores cada componente representa-se por 8 bits (um total de 256 opçõ
 Usado para impressoras, onde as suas cores primárias são o Cyan, Magenta e Yellow, que são as cores complementares do Red, Green e Blue correspondentemente.<br>
 É um modelo subtrativo, pois **absorve** a cor complementar à sua superfície. Por exemplo, se o papel for ciano, absorve a componente vermelha da luz que incide, ficando só visível a cor verde e azul, as componentes que vemos.
 
-<TODO: inserir esquema dos apontamentos>
+![CMY](../Images/CMY.png)
+
