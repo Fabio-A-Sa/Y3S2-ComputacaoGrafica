@@ -22,4 +22,16 @@ Método simples que se faz em WebGL que tem como principal objetivo deitar fora 
 - Se negativo, então não desenha
 - Se positivo, desenha
 
-### Algoritmos
+### Algoritmos do Espaço Objeto
+
+#### Algoritmo de Roberts
+
+Testa cada aresta contra o perfil de volumes de poliedros convexos. Os eventos de mudança de estado são:
+- Aresta completamente oculta
+- Aresta não oculta
+- Uma parte da aresta não é oculta
+- Duas partes da aresta não estão ocultas
+
+#### Algoritmo de Appel e outros
+
+
