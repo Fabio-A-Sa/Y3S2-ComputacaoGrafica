@@ -72,4 +72,10 @@ A imagem é criada linha a linha, e explora dois conceitos:
 - Coerência **vertical**, o conjunto de objetos visíveis determinados para uma linha de varrimento, difere pouco do conjunto correspondente da linha anterior;
 - Coerência de **aresta**, uma aresta só altera a visibilidade quando se cruza com outra aresta visível ou quando penetra numa face;
 
+Tabela de Arestas guara informação de todas as arestas cuja projeção no plano de visualização não é horizontal. As entradas da tabela estão ordenadas de forma crescente pelo valor de Y. Contém também a altura da aresta, de modo que esta seja decrementada e a partir daí sabe-se quando esta não está mais ativa na *scanline*.
 
+Tabela de Polígonos tem informação de todo os polígonos, contendo para cada um a equação do plano, informação da cor, a coordenada Z a recalcular em cada píxel, e uma flag de *in-out* para controlar se o processamento está dentro ou fora do polígono.
+
+Lista de Arestas ativas contém informação ordenada pelo eixo X de todas as arestas ativas na linha de varrimento atual.
+
+#### 3 - A
