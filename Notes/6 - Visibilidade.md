@@ -34,4 +34,13 @@ Testa cada aresta contra o perfil de volumes de poliedros convexos. Os eventos d
 
 #### Algoritmo de Appel e outros
 
+Testa cada aresta contra outra aresta. Calcula a quantidade de invisibilidade (QI). Cada ponto tem inicialmente QI nulo, e no final representa o número de poligonos que estão entre o observador e cada ponto. O ponto é visível se o seu QI for nulo. <br>
+Para cada objeto:
+- Calcula num ponto o seu QI;
+- Visita o grafo de vértices usando a coerência espacial;
+- Compara com outras arestas;
+
+#### Algoritmo de Atherton & Weiller
+
+Algoritmo 
 
