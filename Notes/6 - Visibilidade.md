@@ -18,4 +18,8 @@ Compara os objetos entre si de modo a seleciar a parte visível de cada um.
 
 ## Backface Culling
 
-Método simples que se faz 
+Método simples que se faz em WebGL que tem como principal objetivo deitar fora as faces, vértices e arestas não visíveis. De facto, o observador só vê cerca de metade da dimensão dos objetos e dos polígonos. Só aqueles que possuem normal que faz um ângulo inferior a 90 graus em relação ao vetor visualizador é que são desenhados no ecrã. Só precisa de saber o sinal do produto escalar entree esses dois vetores:
+- Se negativo, então não desenha
+- Se positivo, desenha
+
+### Algoritmos
