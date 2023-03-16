@@ -63,3 +63,13 @@ O significado de coerente se o polígono ocupar toda a área, não ocupar nenhum
 
 #### 2 - Algoritmo de Linha de Varrimento
 
+Algoritmo que usa três estruturas de dados para guardar o estado atual da pesquisa:
+- `AEL`, Lista de Arestas Ativas;
+- `ET`, Tabela de Novas Arestas;
+- `PT`, Tabela de Polígonos;
+
+A imagem é criada linha a linha, e explora dois conceitos:
+- Coerência **vertical**, o conjunto de objetos visíveis determinados para uma linha de varrimento, difere pouco do conjunto correspondente da linha anterior;
+- Coerência de **aresta**, uma aresta só altera a visibilidade quando se cruza com outra aresta visível ou quando penetra numa face;
+
+
