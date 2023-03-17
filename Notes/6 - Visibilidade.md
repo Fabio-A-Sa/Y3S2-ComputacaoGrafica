@@ -52,3 +52,14 @@ Algoritmo de cálculo de visibilidade que se divide em várias partes. Admite-se
 O problema de ordenação pode não ser o mais correto: tem apenas as coordenadas Z e objetos quase planos. Normalmente pega-se no vértice mais próximo do observador, mas mesmo assim não pode ser o suficiente para objetos complexos (côncavos).
 
 ### Algoritmos do Espaço Objeto
+
+#### 1 - Algoritmo de Warnock 
+
+Algoritmo orientado à área e recursivo:
+- Se a área é coerente, desenha;
+- Senão, divide em quatro partes e recursivamente aplica o algoritmo;
+
+O significado de coerente se o polígono ocupar toda a área, não ocupar nenhuma, ou apenas um polígono interseta essa área, sem ser confundido com o próprio fundo.
+
+#### 2 - Algoritmo de Linha de Varrimento
+
