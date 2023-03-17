@@ -78,4 +78,6 @@ Tabela de Polígonos tem informação de todo os polígonos, contendo para cada 
 
 Lista de Arestas ativas contém informação ordenada pelo eixo X de todas as arestas ativas na linha de varrimento atual.
 
-#### 3 - A
+#### 3 - Algoritmo Z-Buffer
+
+<TODO>
