@@ -24,7 +24,7 @@ Método simples que se faz em WebGL que tem como principal objetivo deitar fora 
 
 ### Algoritmos do Espaço Objeto
 
-#### Algoritmo de Roberts
+#### 1 - Algoritmo de Roberts
 
 Testa cada aresta contra o perfil de volumes de poliedros convexos. Os eventos de mudança de estado são:
 - Aresta completamente oculta
@@ -32,7 +32,7 @@ Testa cada aresta contra o perfil de volumes de poliedros convexos. Os eventos d
 - Uma parte da aresta não é oculta
 - Duas partes da aresta não estão ocultas
 
-#### Algoritmo de Appel e outros
+#### 2 - Algoritmo de Appel e outros
 
 Testa cada aresta contra outra aresta. Calcula a quantidade de invisibilidade (QI). Cada ponto tem inicialmente QI nulo, e no final representa o número de poligonos que estão entre o observador e cada ponto. O ponto é visível se o seu QI for nulo. <br>
 Para cada objeto:
@@ -40,7 +40,14 @@ Para cada objeto:
 - Visita o grafo de vértices usando a coerência espacial;
 - Compara com outras arestas;
 
-#### Algoritmo de Atherton & Weiller
+#### 3 - Algoritmo de Atherton & Weiller
 
-Algoritmo 
+Algoritmo de cálculo de visibilidade que se divide em várias partes. Admite-se que o observador está em coordenadas Z infinitas, para que os raios de observação sejam perpendiculares à cena por simplificação.
+
+- Ordena os polígonos por ordem de coordenadas, dos mais próximos para os mais afastados;
+- Com o primeiro da lista corta os outros todos;
+- Classifica em duas listas os polígonos: os visíveis e os invisíveis, alguns tem várias partes;
+- Repete para todas as outras figuras menos a última, pois essa não corta mais nenhum objeto;
+
+O problema de ordenação pode não ser o mais correto: tem apenas as coordenadas Z e objetos quase planos. Normalmente pega-se no vértice mais próximo do observador, mas mesmo assim não pode ser o suficiente para objetos complexos (côncavos).
 
