@@ -82,15 +82,17 @@ Lista de Arestas ativas contém informação ordenada pelo eixo X de todas as ar
 
 Mais simples de implementar em software e em hardware. Não exige qualquer tipo de pré-ordenação e nem efetua comparações objeto a objeto. Cria-se dois buffers:
 - `Frame buffer`, contém a imagem final, pixel a pixel;
-- `Depth buffer`, contém os valores de Z, pixel a pixel;
+- `Depth buffer`, contém os valores de Z, pixel a pixel. O valor máximo (mais distante ao observador) é 0;
 
 Algoritmo:
 
 - Preparar o frame buffer, visitando toda a janela visível e pintando-a com a cor de background;
 - Preparar o depth buffer, visitando toda a janela visível e pintando-a com o valor 0 (distância máxima);
 - Para cada polígono e para cada pixel determina a distância ao observador;
-- Se a distância for maior a que já lá estava, então no frame buffer
-
-
+- Se a distância for maior a que já lá estava, então 
+    - no frame buffer colocar o píxel
+    - no depth buffer colocar o valor de z atualizado
 
 #### 4 - Ray Casting
+
+O objeto com a menor dis
