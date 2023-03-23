@@ -51,7 +51,7 @@ Algoritmo de cálculo de visibilidade que se divide em várias partes. Admite-se
 
 O problema de ordenação pode não ser o mais correto: tem apenas as coordenadas Z e objetos quase planos. Normalmente pega-se no vértice mais próximo do observador, mas mesmo assim não pode ser o suficiente para objetos complexos (côncavos).
 
-### Algoritmos do Espaço Objeto
+### Algoritmos do Espaço Imagem
 
 #### 1 - Algoritmo de Warnock 
 
@@ -80,4 +80,6 @@ Lista de Arestas ativas contém informação ordenada pelo eixo X de todas as ar
 
 #### 3 - Algoritmo Z-Buffer
 
-<TODO>
+Ma
+
+#### 4 - Ray Casting
