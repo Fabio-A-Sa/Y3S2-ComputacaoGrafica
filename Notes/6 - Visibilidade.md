@@ -80,6 +80,17 @@ Lista de Arestas ativas contém informação ordenada pelo eixo X de todas as ar
 
 #### 3 - Algoritmo Z-Buffer
 
-Ma
+Mais simples de implementar em software e em hardware. Não exige qualquer tipo de pré-ordenação e nem efetua comparações objeto a objeto. Cria-se dois buffers:
+- `Frame buffer`, contém a imagem final, pixel a pixel;
+- `Depth buffer`, contém os valores de Z, pixel a pixel;
+
+Algoritmo:
+
+- Preparar o frame buffer, visitando toda a janela visível e pintando-a com a cor de background;
+- Preparar o depth buffer, visitando toda a janela visível e pintando-a com o valor 0 (distância máxima);
+- Para cada polígono e para cada pixel determina a distância ao observador;
+- Se a distância for maior a que já lá estava, então no frame buffer
+
+
 
 #### 4 - Ray Casting
