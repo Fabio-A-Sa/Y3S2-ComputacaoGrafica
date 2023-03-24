@@ -100,3 +100,9 @@ Algoritmo:
 #### 4 - Ray Casting
 
 O objeto com a menor distância ao observador é o atingido primeiro. Depois tenta chegar à luz com uma linha reta: se chegar à luz então está visível, senão está invisível.
+
+### Algoritmos tipo Lista de Prioridades
+
+#### 1 - Algoritmo de Newel, Newel e Sacha
+
+Também conhecido como
