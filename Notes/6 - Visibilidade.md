@@ -95,4 +95,4 @@ Algoritmo:
 
 #### 4 - Ray Casting
 
-O objeto com a menor dis
+O objeto com a menor distância ao observador é o atingido primeiro. Depois tenta chegar à luz com uma linha reta: se chegar à luz então está visível, senão está invisível.
