@@ -105,4 +105,7 @@ O objeto com a menor distância ao observador é o atingido primeiro. Depois ten
 
 #### 1 - Algoritmo de Newel, Newel e Sacha
 
-Também conhecido como
+Também conhecido como algoritmo *depth-sort*. Pinta os polígonos por ordem decrescente da distância ao observador. Passos:
+- Ordena os polígonos pela sua respetiva coordenada Z, do mais afastado para o mais próximo;
+- Divide os polígonos, porque pode haver sobreposição e ordem tão bem definida;
+- Começa a pintar os pontos/pixeis mais afastados até ao mais próximo,. As cores são sobrepostas e prevalece aquela mais recentemente pintada;
