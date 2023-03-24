@@ -18,7 +18,7 @@ Compara os objetos entre si de modo a seleciar a parte visível de cada um.
 
 ### Algoritmos tipo Lista de Prioridades
 
-Como os algoritmo de Newel e Sacha e o algoritmo da Binary Space-Partitioning Trees.
+Como os algoritmo de Newel e Sacha e o algoritmo da Binary Space-Partitioning Trees. É uma interpretação do conhecido "Algoritmo do Pintor".
 
 ## Backface Culling
 
