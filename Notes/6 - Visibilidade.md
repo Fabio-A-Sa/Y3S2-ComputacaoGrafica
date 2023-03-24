@@ -6,7 +6,7 @@ Sintese de Imagem ou *rendering* é a criação de imagens usando a computação
 
 ## Visibilidade
 
-É um problema semelhante à parte do cálculo de sombras. Há dois tipos de algoritmos disponíveis:
+É um problema semelhante à parte do cálculo de sombras. Há três tipos de algoritmos disponíveis:
 
 ### Algoritmos no Espaço Imagem
 
@@ -15,6 +15,10 @@ Para cada píxel na imagem, ao mesmo tempo que calcula a cor, calcula a sua visi
 ### Algoritmos no Espaço Objeto
 
 Compara os objetos entre si de modo a seleciar a parte visível de cada um. 
+
+### Algoritmos tipo Lista de Prioridades
+
+Como os algoritmo de Newel e Sacha e o algoritmo da Binary Space-Partitioning Trees.
 
 ## Backface Culling
 
