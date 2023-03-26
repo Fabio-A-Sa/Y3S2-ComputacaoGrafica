@@ -41,4 +41,5 @@ Em cada iteração, parte do raio incidente é convertido em raio refletido (coe
 O algoritmo é independente do ponto de vista do observador e é divido em duas partes principais:
 
 - Calcular a iluminação, ou seja, a interação entre objetos e fontes de luz. É aqui que incide a parte principal do algoritmo;
-- Criar a imagem considerando o ponto de vista do observador 
+- Criar a imagem considerando o ponto de vista do observador, por exemplo com o Z-Buffer, que é o algoritmo mais comum;
+
