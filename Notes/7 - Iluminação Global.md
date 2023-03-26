@@ -43,3 +43,9 @@ O algoritmo é independente do ponto de vista do observador e é divido em duas 
 - Calcular a iluminação, ou seja, a interação entre objetos e fontes de luz. É aqui que incide a parte principal do algoritmo;
 - Criar a imagem considerando o ponto de vista do observador, por exemplo com o Z-Buffer, que é o algoritmo mais comum;
 
+Nesta situação, o algoritmo admite:
+
+- Não há luz pontual;
+- Todos os objetos são considerados fontes de luz;
+- Trata apenas a iluminação difusa;
+- Os polígonos têm sempre uma iluminação constante, pelo que às vezes é necessário parti-los em *patches*;
