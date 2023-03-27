@@ -56,7 +56,7 @@ A radiosidade, que tem em consideração o objeto e tudo que ele emite nos outro
 Bi - radiosidade (energia expelida)
 EiAi - energia emitida em toda a área do polígono
 pi - refletividade do material
-Fij - fator de forma, percentagem de energia que abandona j e atinge i
+Fji - fator de forma, percentagem de energia que abandona j e atinge i
 
 BiAi = EiAi + pi sum(FjiBjAj)
 ```
@@ -79,3 +79,4 @@ Bi - pi sum(BjFij) = Ei
 - Quando muda as grandezas Ei (acender ou apagar uma luz) ou Pi (mudança de material ou textura) temos de resolver novamente o sistema de equações para determinar a radiosidade de cada patch, algo também simples e eficiente;
 - Quando um polígono muda a sua forma ou localização, temos de determinar os fatores de forma, que é um processo bastante lento e complexo a nível computacional;
 
+Um `refinamento progressivo` da imagem permite apresentar resultados desde o início. Conforme o algoritmo corre esse valores são corrigidos, dando uma sensação mais nítida da imagem final ao utilizador.
