@@ -49,3 +49,14 @@ Nesta situação, o algoritmo admite:
 - Todos os objetos são considerados fontes de luz;
 - Trata apenas a iluminação difusa;
 - Os polígonos têm sempre uma iluminação constante, pelo que às vezes é necessário parti-los em *patches*;
+
+A radiosidade, que tem em consideração o objeto e tudo que ele emite nos outros, é dada pela seguinte fórmula:
+
+```note
+Bi - radiosidade (energia expelida)
+EiAi - energia emitida em toda a área do polígono
+pi - refletividade do material
+Fij - fator de forma, percentagem de energia que abandona j e atinge i
+
+BiAi = EiAi + pi sum(FjiBjAj)
+```
