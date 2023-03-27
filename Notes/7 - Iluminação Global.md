@@ -75,6 +75,7 @@ Bi - pi sum(BjFij) = Ei
 
 ### Complexidade do algoritmo
 
-- Quando a posição do observador muda, apenas temos de efetuar o cálculo de visibilidade novamente (Z-Buffer);
-- Quando muda as grandezas Ei ou Pi temos de resolver novamente o sistema de equações para
-- Quando um poligono muda a sua forma ou 
+- Quando a posição do observador muda, apenas temos de efetuar o cálculo de visibilidade novamente (Z-Buffer), que é algo rápido e bastante eficiente;
+- Quando muda as grandezas Ei (acender ou apagar uma luz) ou Pi (mudança de material ou textura) temos de resolver novamente o sistema de equações para determinar a radiosidade de cada patch, algo também simples e eficiente;
+- Quando um polígono muda a sua forma ou localização, temos de determinar os fatores de forma, que é um processo bastante lento e complexo a nível computacional;
+
