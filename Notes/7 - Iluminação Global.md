@@ -60,3 +60,15 @@ Fij - fator de forma, percentagem de energia que abandona j e atinge i
 
 BiAi = EiAi + pi sum(FjiBjAj)
 ```
+
+Em ambientes difusos existe a seguinte relação de reciprocidade entre os fatores de forma:
+
+```note
+AiFij = AjFji
+```
+
+Que aplicada à função de radiosidade dá o seguinte sistema:
+
+```note
+Bi - pi sum(BjFij) = Ei
+```
