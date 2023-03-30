@@ -32,9 +32,9 @@ Em cada iteração, parte do raio incidente é convertido em raio refletido (coe
 
 #### 2 - Diminuição do número de interseções a testar
 
--
--
--
+- `Volumes envolventes`, colocar um objeto complexo dentro de uma caixa simples, normalmente de lados alinhados com os eixos. Se o raio não incidir na caixa, então o processamento é rápido (teste conservativo), senão temos de avaliar a forma complexa. Maos eficiente quanto menos espaços vazios houver dentro da caixa, normalmente neste critério é preferível formas retas (rectângulo, quadrado), do que formas circulares;
+- `Organização Hierarquica dos Volumes Envolventes`, organizar os volumes envolventes de forma a terem uma hierarquia de *clusters*, formando uma árvore de pesquisa. Assim o número de iterações só depende da profundidade da árvore;
+- `Divisão espacial em Grelhas Tridimensionais`, usando o algoritmo **3D DDA**, *Diagram Differencial Analyser*. O espaço é divido em cubos do mesmo tamanho que contêm uma lista de objetos (totais ou parciais) internos. Só as células que coincidirem com o raio é que serão avaliadas, permite econimizar muito espaço. Cada célula pode ainda ter uma hierarquia, para o algoritmo ser ainda mais eficiente.
 
-## Radiosidade
+## Radiosity
 
