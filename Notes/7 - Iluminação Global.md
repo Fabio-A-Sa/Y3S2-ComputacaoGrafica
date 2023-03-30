@@ -26,11 +26,15 @@ Em cada iteração, parte do raio incidente é convertido em raio refletido (coe
 
 #### 1 - Diminuição do número de raios a processar
 
-
+- `Item Buffers`, pré-processamento através do algoritmo Z-Buffer, onde se determina as áreas do ecrã onde se situam os objetos;
+- `Adaptative Tree-Depth Control`, usa-se uma profundidade limitada da árvore de *shading* para economizar recursos. Um nó com pouca influência na cor do pixel-root pode ser descartado; 
+- `Light-Buffers`, a cada fonte de luz associam-se listas com os objetos que a rodeiam, os chamados *shadow feelers*. São verificados primeiro, porque há uma grande probabilidade do próximo raio incidir num polígono contido nessa lista;
 
 #### 2 - Diminuição do número de interseções a testar
 
-
+-
+-
+-
 
 ## Radiosidade
 
