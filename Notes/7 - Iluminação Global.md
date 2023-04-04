@@ -72,3 +72,9 @@ Que aplicada à função de radiosidade dá o seguinte sistema:
 ```note
 Bi - pi sum(BjFij) = Ei
 ```
+
+### Complexidade do algoritmo
+
+- Quando a posição do observador muda, apenas temos de efetuar o cálculo de visibilidade novamente (Z-Buffer);
+- Quando muda as grandezas Ei ou Pi temos de resolver novamente o sistema de equações para
+- Quando um poligono muda a sua forma ou 
