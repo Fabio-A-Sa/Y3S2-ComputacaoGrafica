@@ -57,10 +57,11 @@ Desvantagens:
 
 #### 4.3 - Octrees
 
-Divisão adaptativa do volume à medida da necessidade. É um método recursivo que divide o volume em octantes e é proporcional à superfície do objecto porque a divisão só ocorre na superfície.
+Divisão adaptativa do volume à medida da necessidade. É um método recursivo que divide o volume em octantes e é proporcional à superfície do objecto porque a divisão só ocorre na superfície. Os índices são usados 
 
 #### 4.4 - Árvores binárias de partição do espaço
 
-O espaço é divido por um plano de posição e orientação arbitrárias. A cada nó interno da árvore está associado um plano com dois apontadores:
-- um para o lado extenro 
--
+O espaço é divido por um plano de posição e orientação arbitrárias. A cada nó interno da árvore está associado um plano com dois apontadores: um para o lado interno e outro para o lado externo. As folhas são subespaços homogéneos, ou totalmente externos ou totalmente internos. As árvores não têm de ter equilíbrio. 
+
+### 5 - Representação construtiva
+
