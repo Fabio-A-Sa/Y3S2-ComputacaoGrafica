@@ -7,7 +7,7 @@ O algoritmo de atribuição/mapeamento de texturas é simples: do píxel para o 
 - pela cor média de cada textel na área, completos e incompletos;
 - pela média pesada de cada textel, principalmente quando existe uma quebra grande nas cores da área;
 
-Os dois últimos critérios, que usam um **filtro linear**, são melhores para termos uma imagem menos desfocada possível.
+Os dois últimos critérios, que usam um **filtro linear**, são melhores para termos uma imagem menos desfocada possível. 
 
 Existem três tipos de texturas:
 - Texturas de `Mapeamento`, quando colocamos uma imagem a preencher o polígono;
