@@ -24,9 +24,9 @@ Definidos pelas suas fronteiras lógicas, em termos de vértices, arestas e face
 
 ```note
 V - E + F = 2
-V - 
-E - 
-F - 
+V - Vértices
+E - Arestas
+F - Faces
 ```
 
 - Fórmula de Euler Generalizada
