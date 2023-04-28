@@ -18,4 +18,11 @@ Quando a curva é aproximada por um conjunto de polígonos, arestas e vértices.
 
 ### Representação das Malhas Poligonais
 
+#### 1 - Representação Explícita
+
+#### 2 - Representação por apontadores para listas de vértices
+
+#### 3 - Representação por apontadores para listas de arestas
+
+#### 4 - Solução de Baumgart
 
