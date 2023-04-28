@@ -10,7 +10,7 @@ Têm uma representação fechada: qualquer operação com os sólidos deve resul
 
 ### 1 - Representação por instanciação de Primitivas
 
-
+Dadas várias primitivas (cubo, esfera, triângulo)e um conjunto de transformações gráficas é possível modelar objetos mais complexos. A cada apontador e instância de primitivas pode-se associar uma ou mais restrições. Os próprios objetos complexos também podem ser usados como primitivas de outros.
 
 ### 2 - Representação por Varrimento
 
