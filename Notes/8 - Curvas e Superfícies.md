@@ -31,7 +31,19 @@ Problemas com este modo de representação:
 
 #### 2 - Representação por apontadores para listas de vértices
 
+Existe uma lista de vértices (x, y, z) e uma lista de polígonos, em que cada polígono é representado por apontadores para vértices.
+
+Vantagens do método:
+- Cada vértice é guardado uma vez apenas;
+- A coordenada de um vértice é facilmente alterada;
+
+Desvantagens do método:
+- É difícil obter os polígonos que partilham uma dada aresta;
+- As arestas continuam a ser desenhasas mais do que uma vez;
+
 #### 3 - Representação por apontadores para listas de arestas
+
+
 
 #### 4 - Solução de Baumgart
 
