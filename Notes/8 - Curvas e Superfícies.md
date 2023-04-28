@@ -43,7 +43,14 @@ Desvantagens do método:
 
 #### 3 - Representação por apontadores para listas de arestas
 
+Existe uma lista de vértices (x, y, z), uma lista de polígonos caracterizada por apontadores para vértices e uma lista de arestas caracterizada por um par de vértices (os dois vértices da aresta) e por um par de polígonos (os polígonos comuns da aresta). Como a aresta pode ser comum a um só polígono se for uma aresta mais externa, então o segundo apontador é nulo.
 
+Vantagens do método:
+- Desenha só uma aresta, sem qualquer repetição;
+- É fácil de fazer clipping, porque para colorir o polígono usa-se a lista de polígonos;
+
+Desvantagens do método:
+- Ainda não sabemos de forma eficiente dado um vértice X quais são as arestas que estão ligadas a este;
 
 #### 4 - Solução de Baumgart
 
