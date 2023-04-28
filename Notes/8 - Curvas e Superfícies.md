@@ -20,6 +20,15 @@ Quando a curva é aproximada por um conjunto de polígonos, arestas e vértices.
 
 #### 1 - Representação Explícita
 
+Conjunto de coordenadas de todos os vértices (x, y, z). As entidades presentes são as faces e os vértices, as arestas estão implícitas.
+
+Problemas com este modo de representação:
+- Tem vértices repetidos, consumo de memória;
+- Arestas implícitas;
+- Vértices em comum implícitos, demora a pesquisar quais são;
+- A mesma aresta é desenhada duas vezes;
+- Ao arrastar um vértice (*update* de alguma coordenada), é necessário calcular todas as novas arestas que partilham aquele vértice;
+
 #### 2 - Representação por apontadores para listas de vértices
 
 #### 3 - Representação por apontadores para listas de arestas
