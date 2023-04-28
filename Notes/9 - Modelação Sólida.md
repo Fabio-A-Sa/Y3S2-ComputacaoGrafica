@@ -20,7 +20,7 @@ O deslocamento, escalamento e rotação de um objeto segundo uma trajetória pod
 
 Definidos pelas suas fronteiras lógicas, em termos de vértices, arestas e faces. Apenas consideram-se os sólidos com fronteira `2-mainfolds`, que são assegurados pelas fórmulas de Euler:
 
-- Fórmula de Euler
+#### Fórmula de Euler
 
 ```note
 V - E + F = 2
@@ -29,8 +29,14 @@ E - Arestas
 F - Faces
 ```
 
-- Fórmula de Euler Generalizada
+#### Fórmula de Euler Generalizada
 
 ```note
-
+V - E + F - H = 2 (C - G)
+V - Vértices
+E - Arestas
+F - Faces
+H - Buracos nas faces
+C - Número de partes do objeto
+G - Número de buracos que atravessam o objeto
 ```
