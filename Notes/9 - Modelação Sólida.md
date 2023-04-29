@@ -14,4 +14,6 @@ Dadas várias primitivas (cubo, esfera, triângulo)e um conjunto de transformaç
 
 ### 2 - Representação por Varrimento
 
+O deslocamento, escalamento e rotação de um objeto segundo uma trajetória pode definir outro objeto. Precisa-se de um *shape* (forma a deslocar) e um *path* (conjunto de vectores que definem o deslocamento e rotação de um objeto).
+
 ### 3 - Representação pela Fronteira (*b-rep*)
