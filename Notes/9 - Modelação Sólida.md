@@ -61,3 +61,6 @@ Divisão adaptativa do volume à medida da necessidade. É um método recursivo 
 
 #### 4.4 - Árvores binárias de partição do espaço
 
+O espaço é divido por um plano de posição e orientação arbitrárias. A cada nó interno da árvore está associado um plano com dois apontadores:
+- um para o lado extenro 
+-
