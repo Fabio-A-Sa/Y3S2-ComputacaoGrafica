@@ -40,3 +40,17 @@ H - Buracos nas faces
 C - Número de partes do objeto
 G - Número de buracos que atravessam o objeto
 ```
+
+### 4 - Representação por Decomposição Espacial
+
+Existem um conjunto de células primitivas e parametrizáveis, que podem definir inclusive superfícies curvas. Pode admitir a composição de objectos mais complexos a partir de outros mais simples. Usa-se uma operação de colagem entre primitivas (apenas sobreposição).
+
+Um sólido é formado por células idênticas de igual volume, normalmente cubos (**voxels**) e um bit controla a sua presença ou ausência no espaço. O objecto é ocupado com uma lista única de células ocupadas.
+
+Desvantagens:
+- Quantidade de memória usada, se quisermos células em formato RGB;
+- Precisão baixa, depende do tamanho do volume escolhido, que influencia também na memória gasta;
+
+Solução:
+Octree: Divisão adaptativa do volume à medida da necessidade. É um método recursivo que divide o volume em octantes e é proporcional à superfície do objecto porque a divisão só ocorre na superfície.
+
