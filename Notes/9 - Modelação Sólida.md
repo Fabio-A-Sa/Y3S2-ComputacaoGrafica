@@ -43,7 +43,9 @@ G - Número de buracos que atravessam o objeto
 
 ### 4 - Representação por Decomposição Espacial
 
-Existem um conjunto de células primitivas e parametrizáveis, que podem definir inclusive superfícies curvas. Pode admitir a composição de objectos mais complexos a partir de outros mais simples. Usa-se uma operação de colagem entre primitivas (apenas sobreposição).
+#### 4.1 - Decomposição Celular
+
+Existem um conjunto de células primitivas e parametrizáveis, que podem definir inclusive superfícies curvas. Pode admitir a composição de objectos mais complexos a partir de outros mais simples. Usa-se uma operação de colagem entre primitivas (apenas sobreposição). Nesta situação as primitivas podem não ser iguais.
 
 Um sólido é formado por células idênticas de igual volume, normalmente cubos (**voxels**) e um bit controla a sua presença ou ausência no espaço. O objecto é ocupado com uma lista única de células ocupadas.
 
