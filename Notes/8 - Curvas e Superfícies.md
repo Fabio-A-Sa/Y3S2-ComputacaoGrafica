@@ -101,4 +101,3 @@ Têm continuidade G1 nos pontos de junção. Tem dois pontos externos e dois pon
 ### Algoritmo de Casteljau
 
 Divisão recursiva da curva, parando apenas quando a curva em questão é suficientemente plana para poder ser aproximada por um segmento de reta OU os quatro pontos de controlo estão no mesmo pixel. É um algoritmo eficiente porque requer apenas 6 shifts e 6 adições em cada divisão.
-
