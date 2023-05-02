@@ -59,3 +59,5 @@ Desvantagens:
 
 Divisão adaptativa do volume à medida da necessidade. É um método recursivo que divide o volume em octantes e é proporcional à superfície do objecto porque a divisão só ocorre na superfície.
 
+#### 4.4 - Árvores binárias de partição do espaço
+
