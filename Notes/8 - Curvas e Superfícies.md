@@ -58,3 +58,10 @@ Cada vértice tem um apontador para uma sua aresta. Cada aresta tem, para cada v
 
 ## Curvas Cúbicas
 
+A representação de curvas é feita de forma paramétrica de grau três: três pontos formam um plano, tem dois pontos de inflexão e precisa apenas de quatro pontos de apoio. De modo geral
+
+```note
+Q(t) = T * C
+T = [t^3, t^2, t^1, 1]
+C = [ax, ay, az, bx, by, bz, ...]
+```
