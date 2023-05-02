@@ -78,6 +78,9 @@ C = [ax, ay, az, bx, by, bz, ...]
 
 #### Curvas de Hermite
 
-
+Têm continuidade G1 nos pontos de junção. Tem dois pontos extremos e os vectores tangentes nesses pontos. 
 
 #### Curvas de Bézier
+
+Têm continuidade G1 nos pontos de junção. Tem dois pontos externos e dois pontos que controlam os vetores tangentes nesses pontos.
+
