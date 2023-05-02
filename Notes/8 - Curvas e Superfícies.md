@@ -93,3 +93,8 @@ Têm continuidade G1 nos pontos de junção. Tem dois pontos extremos e os vecto
 
 Têm continuidade G1 nos pontos de junção. Tem dois pontos externos e dois pontos que controlam os vetores tangentes nesses pontos.
 
+### Desenho de Curvas Cúbicas
+
+- Avaliação de x(t), y(t) e z(t) para todos os valores de K entre 0 e 1
+- Algoritmo de Casteljau
+
