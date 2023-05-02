@@ -74,3 +74,10 @@ C = [ax, ay, az, bx, by, bz, ...]
 
 ### Tipos de Curvas Paramétricas
 
+
+
+#### Curvas de Hermite
+
+
+
+#### Curvas de Bézier
