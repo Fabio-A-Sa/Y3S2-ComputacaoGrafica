@@ -54,3 +54,5 @@ Desvantagens do método:
 
 #### 4 - Solução de Baumgart
 
+Cada vértice tem um apontador para uma sua aresta. Cada aresta tem, para cada vértice, um apontador ou dois apontadores para a próxima aresta partilhada. A lista é assim ligada ou duplamente ligada.
+
