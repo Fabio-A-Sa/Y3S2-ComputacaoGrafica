@@ -65,3 +65,12 @@ Q(t) = T * C
 T = [t^3, t^2, t^1, 1]
 C = [ax, ay, az, bx, by, bz, ...]
 ```
+
+### Tipos de Continuidades
+
+`G0` - continuidade geométrica 0, quando as curvas se juntam num ponto
+`G1` - continuidade geométrica 1, quando a direção dos vetores tangentes é igual
+`C1` - continuidade paramétrica 1, quando a direção dos vetores tangentes é igual e tem a mesma amplitude (derivadas iguais)
+
+### Tipos de Curvas Paramétricas
+
