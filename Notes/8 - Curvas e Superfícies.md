@@ -74,7 +74,16 @@ C = [ax, ay, az, bx, by, bz, ...]
 
 ### Tipos de Curvas Paramétricas
 
+Agora as curvas são caracterizadas pela multiplicação de três matrizes:
 
+```note
+Q(t) = T * M * G
+T = [t^3, t^2, t^1, 1]
+M = a matriz de base que caracteriza a curva (Hermite, Bezier...)
+G = [G1, G2, G3, G4] - o vetor geométrico
+```
+
+Assim as curvas são uma soma pesada do vetor geométrico.
 
 #### Curvas de Hermite
 
