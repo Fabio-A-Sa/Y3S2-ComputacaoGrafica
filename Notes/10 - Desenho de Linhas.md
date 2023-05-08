@@ -15,4 +15,21 @@ Em cada algoritmo, escolhem-se dois pontos (P1 e P2) e as linhas obtidas devem s
 - Há operações com floats, muito mais lentas do que com inteiros;
 - Floats têm sempre erros de representação;
 
+## 2 - Rasterização de Segmentos de Reta
+
+### 2.1 - Algoritmo Midpoint para Retas
+
+- A equação da reta pode ser vista como f(x, y) => bx - ay = 0;
+- Seja `e` o valor da distância do ponto M ao que interseta a reta NE-E, o píxel seguinte pode ser o de NE (e > 0) ou E (e < 0);
+
+### Desvantagens:
+
+- Cálculo do valor inicial do e (b - a/2)
+
+### Solução:
+
+- Se multiplicarmos tudo por 2 acaba por ser simples e sem qualquer float;
+- e = e + 2b - a
+- se NE: d = d + 2b - 2a
+- se  E: d = d + 2b
 
