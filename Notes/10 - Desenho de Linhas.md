@@ -33,3 +33,8 @@ Em cada algoritmo, escolhem-se dois pontos (P1 e P2) e as linhas obtidas devem s
 - se NE: d = d + 2b - 2a
 - se  E: d = d + 2b
 
+### 2.2 - Algoritmo Midpoint para Circunferências
+
+- A equação da reta pode ser vista como f(x, y) = xx + yy - rr;
+- Ao contrário da reta, os incrementos dependem de X e Y;
+- Uma conta pode ser usada para calcular 8 pontos (um por cada quadrante, basta trocar o sinal e ordem dos operadores);
