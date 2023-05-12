@@ -2,14 +2,19 @@
 
 ## Conectividade
 
-Diferença entre conectividade 4 e 8, saber a diferença!
+![Conectividade](../Images/Conectividade.png)
 
 ## 1 - Preenchimento segundo o contorno existente
 
 ### 1.1 - Por difusão (flood fill)
 
-- Limitado pelo contorno: chamada recursiva a 4 ou 8 vizinhos, pára quando chegar ao contorno;
-- Limitado ao interior da região: chamada recursiva a 4 ou 8 vizinhos, pára quando chegar a uma cor que não é conhecida como sendo interior da região;
+#### 1.1.1 - Limitado pelo contorno
+
+Chamada recursiva a 4 ou 8 vizinhos, pára quando chegar ao contorno. 
+
+#### 1.1.2 - Limitado ao interior da região
+
+Chamada recursiva a 4 ou 8 vizinhos, pára quando chegar a uma cor que não é conhecida como sendo interior da região. 
 
 ### 1.2 - Por análise de contorno
 
