@@ -14,7 +14,7 @@ Chamada recursiva a 4 ou 8 vizinhos, pára quando chegar ao contorno. Há proble
 
 #### 1.1.2 - Limitado ao interior da região
 
-Chamada recursiva a 4 ou 8 vizinhos, pára quando chegar a uma cor que não é conhecida como sendo interior da região. 
+Chamada recursiva a 4 ou 8 vizinhos, pára quando chegar a uma cor que não é conhecida como sendo interior da região. Agora as fronteiras já podem ser incompletas, mas a stack continua a ser bastante usada.
 
 ### 1.2 - Por análise de contorno
 
