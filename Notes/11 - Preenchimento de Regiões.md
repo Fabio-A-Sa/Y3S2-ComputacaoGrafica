@@ -10,7 +10,7 @@
 
 #### 1.1.1 - Limitado pelo contorno
 
-Chamada recursiva a 4 ou 8 vizinhos, pára quando chegar ao contorno. Há consumo da stack
+Chamada recursiva a 4 ou 8 vizinhos, pára quando chegar ao contorno. Há problemas com froteiras incompletas e há consumo da stack.
 
 #### 1.1.2 - Limitado ao interior da região
 
