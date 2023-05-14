@@ -18,7 +18,15 @@ Chamada recursiva a 4 ou 8 vizinhos, pára quando chegar a uma cor que não é c
 
 ### 1.2 - Por análise de contorno
 
+Mais eficiente que os outros tópicos. Parte do ponto inicial, situado algures no interior, e apenas coloca na pilha alguns pontos. Algoritmo:
 
+- Parte de um ponto interior, que começa por ser colocado na pilha;
+- Se a pilha estiver vazia, o programa termina;
+- Senão, retira-o da pilha e visita para a direita e em seguida para a esquerda, tomando nota do XLeft e XRight;
+- Nas linhas imediatamente acima e abaixo encontra, até ao intervalo XLeft e XRight, os novos pontos de partida e coloca-os na pilha;
+- Configura um ponto de partida:
+    - Píxel de coordenada XRight;
+    - Píxel imediatamente antes de um píxel do contorno;
 
 ## 2 - Preenchimento por varrimento segundo descrição de contorno
 
