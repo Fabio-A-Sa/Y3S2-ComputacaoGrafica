@@ -65,3 +65,4 @@ O espaço é divido por um plano de posição e orientação arbitrárias. A cad
 
 ### 5 - Representação construtiva
 
+Conhecida como CSG (Constructive Solid Geometry). O objecto é obtido pela combinação de primitivas através de operadores booleanos. O objecto é guardado em árvore, onde os nós internos são operadores (operações booleanas e transformações geométricas) e as folhas são primitivas simples.
