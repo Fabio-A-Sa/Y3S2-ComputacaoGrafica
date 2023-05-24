@@ -1,4 +1,4 @@
-import {CGFappearance, CGFobject, CGFtexture} from "../../lib/CGF.js";
+import {CGFappearance, CGFobject, CGFtexture} from "../lib/CGF.js";
 import {MyCone} from "../geometric/MyCone.js";
 import {MySphere} from "../geometric/MySphere.js";
 import {MyCylinder} from "../geometric/MyCylinder.js";

@@ -1,4 +1,4 @@
-import {CGFobject, CGFappearance, CGFtexture} from '../../lib/CGF.js';
+import {CGFobject, CGFappearance, CGFtexture} from '../lib/CGF.js';
 import { MySphere } from '../geometric/MySphere.js';
 import { MyAnimatorDropEgg } from '../animated/MyAnimatorDropEgg.js';
 

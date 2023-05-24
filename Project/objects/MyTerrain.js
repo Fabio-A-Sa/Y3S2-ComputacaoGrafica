@@ -1,4 +1,4 @@
-import {CGFobject, CGFappearance, CGFtexture, CGFshader} from '../../lib/CGF.js';
+import {CGFobject, CGFappearance, CGFtexture, CGFshader} from '../lib/CGF.js';
 import { MyPlane } from '../geometric/MyPlane.js';
 import {MyWater} from "./MyWater.js";
 

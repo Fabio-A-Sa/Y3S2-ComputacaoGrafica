@@ -1,4 +1,4 @@
-import { CGFscene, CGFcamera, CGFaxis, CGFappearance, CGFshader, CGFtexture } from "../lib/CGF.js";
+import { CGFscene, CGFcamera, CGFaxis, CGFappearance, CGFshader, CGFtexture } from "./lib/CGF.js";
 import { MyPanorama } from "./objects/MyPanorama.js";
 import { MyBird } from "./objects/MyBird.js";
 import { MyBirdEgg } from "./objects/MyBirdEgg.js";

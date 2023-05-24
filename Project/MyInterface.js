@@ -1,4 +1,4 @@
-import {CGFinterface, dat} from '../lib/CGF.js';
+import {CGFinterface, dat} from './lib/CGF.js';
 
 /**
  * MyInterface

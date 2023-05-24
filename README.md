@@ -19,5 +19,11 @@ Notes that I take during theoretical lectures in Markdown. <br>
 ### Exercises
 Exercises during TP classes <br>
 
+### Project (Grade: __/20)
+Project done during the semester.
+
+- Daniel Rodrigues - up202006562@edu.fe.up.pt
+- Fábio Sá - up202007658@edu.fe.up.pt
+
 **@ Fábio Araújo de Sá** <br>
 **2022/2023**
