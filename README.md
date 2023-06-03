@@ -19,7 +19,7 @@ Notes that I take during theoretical lectures in Markdown. <br>
 ### Exercises
 Exercises during TP classes <br>
 
-### Project (Grade: __/20)
+### Project (Grade: 19.7/20)
 Project done during the semester.
 
 - Daniel Rodrigues - up202006562@edu.fe.up.pt
