@@ -34,5 +34,13 @@ Mais eficiente que os outros tópicos. Parte do ponto inicial, situado algures n
 
 O algoritmo determina os pontos de interseção das arestas com as linhas de varrimento do ecrã e ordena-os. Os pontos a preencher estão entre pares de pontos.
 
+A ordenação acontece sempre segundo Y e depois para todos os X dentro da mesma gama Y. A estrutura de dados pode ser representada como:
+
+```note
+(x1, x2, y)
+```
+
+Neste caso o algoritmo irá pintar os pixeis da linha horizontal compreendida entre (x1, y) e (x2, y).
+
 ### 2.2 - Algoritmo de lista de arestas ativas
 
