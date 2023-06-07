@@ -30,4 +30,9 @@ Mais eficiente que os outros tópicos. Parte do ponto inicial, situado algures n
 
 ## 2 - Preenchimento por varrimento segundo descrição de contorno
 
-//TODO
+### 2.1 - Algoritmo de lista de pontos de fronteira ordenados
+
+
+
+### 2.2 - Algoritmo de lista de arestas ativas
+
