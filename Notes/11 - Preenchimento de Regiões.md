@@ -32,7 +32,7 @@ Mais eficiente que os outros tópicos. Parte do ponto inicial, situado algures n
 
 ### 2.1 - Algoritmo de lista de pontos de fronteira ordenados
 
-
+O algoritmo determina os pontos de interseção das arestas com as linhas de varrimento do ecrã e ordena-os. Os pontos a preencher estão entre pares de pontos.
 
 ### 2.2 - Algoritmo de lista de arestas ativas
 
