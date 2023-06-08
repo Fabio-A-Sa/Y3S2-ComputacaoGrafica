@@ -34,6 +34,11 @@ Mais eficiente que os outros tópicos. Parte do ponto inicial, situado algures n
 
 O algoritmo determina os pontos de interseção das arestas com as linhas de varrimento do ecrã e ordena-os. Os pontos a preencher estão entre pares de pontos.
 
+Desvantagem do algoritmo:
+- A ordenação dos pontos pode ser um proceso lento por envolver um elevado número de pontos;
+- A estrutura de dados *naive* não é adequada, multiplos valores de Y repetidos;
+- Pode não funcionar correctamente para figuras que possuam vértices duplos;
+
 A ordenação acontece sempre segundo Y e depois para todos os X dentro da mesma gama Y. A estrutura de dados pode ser representada como:
 
 ```note
@@ -41,6 +46,8 @@ A ordenação acontece sempre segundo Y e depois para todos os X dentro da mesma
 ```
 
 Neste caso o algoritmo irá pintar os pixeis da linha horizontal compreendida entre (x1, y) e (x2, y).
+
+A estrutura de dados pode ainda ser melhorada se a cada Y corresponder uma lista de valores de X, obviamente pares, para que os valores de Y não sejam duplicados.
 
 ### 2.2 - Algoritmo de lista de arestas ativas
 
