@@ -52,3 +52,15 @@ A estrutura de dados pode ainda ser melhorada se a cada Y corresponder uma lista
 ### 2.2 - Algoritmo de lista de arestas ativas
 
 Dadas as informações sobre as arestas ativas por cada linha horizontal, é simples e económico a nível de memória determinar os pontos de interseção e consequentemente a zona a pintar. Para isso uma **lista de arestas ativas** é mantida para cada região de Y.
+
+- Se o vértice for `simples`, a altura da aresta é: y2 - y1
+- Se o vértice for `duplo`, a altura da aresta é: y2 - y1 + 1
+
+As arestas são definidas por um tuplo de três valores:
+
+```
+(X, DX, LongY)
+X - a coordenada X inicial, do primeiro vértice a contar de cima para baixo;
+DX - o valor a adicionar a X se Y for incrementado de uma unidade;
+LongY - a altura da aresta. após este valor a aresta morre;
+```
