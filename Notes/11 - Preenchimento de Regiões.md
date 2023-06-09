@@ -51,3 +51,4 @@ A estrutura de dados pode ainda ser melhorada se a cada Y corresponder uma lista
 
 ### 2.2 - Algoritmo de lista de arestas ativas
 
+Dadas as informações sobre as arestas ativas por cada linha horizontal, é simples e económico a nível de memória determinar os pontos de interseção e consequentemente a zona a pintar. Para isso uma **lista de arestas ativas** é mantida para cada região de Y.
